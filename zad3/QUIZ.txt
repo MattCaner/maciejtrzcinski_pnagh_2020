@@ -1,0 +1,88 @@
+1.
+Jaki jest odpowiednik formatu ELF na Windowsie?
+a) Windows też korzysta z plików ELF
+b) Windows Object File
+c) Portable Executable
+d) Dynamic Linked Library
+
+2.
+Jak tworzymy w gcc pliki obiektowe z plików źródłowych .c i .cpp?
+a) gcc -obj
+b) gcc -c
+c) gcc --output=elf
+d) Nie tworzymy ich przy użyciu gcc, tylko ld
+
+3.
+Który z następujących łańcuchów znakowych NIE zostanie znaleziony przez komendę strings?
+a) "this chain is terminated with \n"
+b) "this chain contains spaces"
+c) "9876543210"
+d) "xyz"
+
+4.
+Mając program zlinkowany dynamicznie i statycznie - który powinien uruchamiać się szybciej?
+a) ten zlinkowany dynamicznie
+b) ten zlinkowany statycznie
+c) nie ma żadnych podstaw, by uruchamiały się w różnym czasie
+d) zależy to od kompilatora
+
+5.
+Mamy następujący plik plik.c:
+
+const int x = 20;
+void fun(){ puts("fun"); }
+
+które z symboli pojawią się, gdy skompilujemy go do pliku obiektowego (nie licząc _GLOBAL_OFFSET_TABLE_)?
+a) jeden symbol należący do sekcji text i jeden symbol należący do sekcji data
+b) jeden symbol należący do sekcji text i jeden symbol należący do sekcji rodata
+c) jeden symbol należący do sekcji text, jeden symbol niezdefiniowany i jeden symbol należący do sekcji data
+d) jeden symbol należący do sekcji text, jeden symbol niezdefiniowany i jeden symbol należący do sekcji rodata
+
+6.
+Które ze zdań o linkerze nie jest prawdziwe?
+a) Używanie linkera ogranicza czas zużywany na kompilacji dużych projektów
+b) Linker jest integralną częścią kompilatora GCC
+c) Plikiem wyjściowym działania linkera może być plik obiektowy
+d) Po zlinkowaniu pliku, kompilator musi go jeszcze skompilować
+
+7.
+W wypadku korzystania z biblioteki typu .so:
+a) Jako część uruchomienia programu, zostaje doklejony do niego kod z biblioteki
+b) Kod funkcji jest dynamicznie ładowany z pliku biblioteki już po uruchomieniu korzystającego z niej programu
+c) Po poprawnym skompilowaniu, program powinien działać również na systemie, który nie jest wyposażony w bibliotekę
+d) Kompilator może automatycznie przenieść nadmiarowy kod do biblioteki
+
+8.
+Tworząc własną bibliotekę współdzieloną, musimy pamiętać o:
+a) Dodaniu do niej symboli informujących o wersji systemu operacyjnego
+b) Zlinkowaniu jej do /lib/crt0.o
+c) Ustaleniu jej formatu na .a
+d) Żadnym z powyższych
+
+9.
+Zakładając, że nie mamy dostępu do zmieniania zmiennych środowiskowych ani plików systemu, tworząc plik wykonywalny, który korzysta z dostarczonej nam lub napisanej przez nas biblioteki wspódzielonej, musimy pamiętać o:
+a) Skompilowaniu biblioteki z formatu obiektowego do wykonywalnego
+b) Poprawnym ustaleniu wartości rpath programu
+c) Dodaniu programu do listy programów korzystających z biblioteki
+d) Umieszczeniu pliku i biblioteki w tym samym katalogu
+
+10.
+Chcąc umieścić w linkowanym przez nas pliku obiektowym symbol, który nie będzie dalej eksportowany, co musimy napisać w pliku skryptu linkera?
+a) HIDDEN(mysymbol = 0x0123);
+b) mysymbol = 0x0123 NOEXPORT;
+c) mysymbol = ABSOLUTE(0x123);
+d) Nie da się zrobić takiej rzeczy
+
+11.
+Które ze zdań jest prawdziwe?
+a) Prostą bibliotekę .dll możemy stworzyć używając gcc, korzystając z opcji -Wl,-dll
+b) Prostą bibliotekę .dll możemy stworzyć używając gcc, używając skryptu umieszczonego po opcji -T
+c) Prostą bibliotekę .dll możemy stworzyć używając gcc, korzystając z opcji -shared
+d) Samo w sobie, gcc nie może stworzyć bibliotek współdzielonych
+
+12.
+Czym jest gold?
+a) gold jest wersją gcc wzbogaconą o lepszy linker
+b) gold jest linkerem
+c) gold jest opcją gcc, która wymusza pominięcie tych opcji ld, które spowalniałyby linkowanie
+d) Żadne z powyższych

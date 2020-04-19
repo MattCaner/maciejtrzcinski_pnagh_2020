@@ -1,0 +1,5 @@
+W pliku QUIZ.txt znajduje się 12 prostych pytań, które pozwalają ci sprawdzić twoją wiedzę o linkerze. Nie są podchwytliwe, ale nad każdym warto się zastanowić choć chwilę. Rozwiązania należy podać jako łańcuch dwunastu znaków odpowiadających poprawnym odpowiedziom, jako pierwszy argument programu sprawdzającego check.out. Przykładowe sprawdzenie:
+
+./check.out accdabccabdd
+
+Jeśli się zgubisz, wykorzystaj swoją nowo nabytą wiedzę o binutils, by sprawdzić, czy w pliku check.out nie znajdują się przypadkiem jakieś podpowiedzi!
