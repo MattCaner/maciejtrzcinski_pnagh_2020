@@ -1,0 +1,21 @@
+INFORMACJE O PROJEKCIE:
+
+Autor: Maciej Trzciński
+Tytuł: GNU Binutils i wprowadzenie do linkera
+
+LINK DO PREZENTACJI:
+
+https://www.youtube.com/watch?v=QfISk94o6Wo
+
+BIBLIOGRAFIA (a jednocześnie linki do zewnętrznych źródeł):
+
+http://sourceware.org/binutils/docs-2.34/
+https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
+https://refspecs.linuxfoundation.org/elf/gabi4+/ch4.eheader.html
+https://www.eecs.umich.edu/courses/eecs373/readings/Linker.pdf
+https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp.md
+https://lwn.net/Articles/274859/
+https://stackoverflow.com/questions/9688200/difference-between-shared-objects-so-static-libraries-a-and-dlls-so
+https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/
+https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
+https://en.wikipedia.org/wiki/Portable_Executable
