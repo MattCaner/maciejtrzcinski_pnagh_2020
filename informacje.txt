@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=QfISk94o6Wo
 
 BIBLIOGRAFIA (a jednocześnie linki do zewnętrznych źródeł):
 
+https://www.gnu.org/software/binutils/
 http://sourceware.org/binutils/docs-2.34/
 https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 https://refspecs.linuxfoundation.org/elf/gabi4+/ch4.eheader.html
@@ -19,3 +20,6 @@ https://stackoverflow.com/questions/9688200/difference-between-shared-objects-so
 https://www.geeksforgeeks.org/difference-between-static-and-shared-libraries/
 https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 https://en.wikipedia.org/wiki/Portable_Executable
+https://www.computerhope.com/unix/uld.htm
+
+używałem także manuala używanych komend
