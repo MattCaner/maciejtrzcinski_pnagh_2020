@@ -19,8 +19,18 @@ then
 	echo "done"
 fi
 
+if [[ "$*" == "update" ]]
+then
+	echo "---------POBIERANIE NAJNOWSZEJ WERSJI SKRYPTU---------------"
+	wget https://raw.githubusercontent.com/MattCaner/maciejtrzcinski_pnagh_2020/master/run_trzcinski_maciej.sh
+	echo "---------POBRANO---------------"
+
+fi
+
 if [[ "$*" == "clean" ]]
 then
 	rm -rf maciejtrzcinski_pnagh_2020
+	docker ps -a -q -f status=exited | xargs docker rm
+	docker rmi binutils_mt
 	echo "usunieto"
 fi
