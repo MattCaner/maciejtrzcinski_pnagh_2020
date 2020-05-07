@@ -1,7 +1,10 @@
 ### INFORMACJE O PROJEKCIE:
 
 **Autor**: Maciej Trzciński
+
 **Tytuł**: GNU Binutils i wprowadzenie do linkera
+
+Duża część zadań w jakimś stopniu pokrywa się z przykładami, które robiłem na prezentacji - w razie jakiejś niepewności polecam je sobie przypomnieć
 
 #### LINK DO PREZENTACJI:
 
