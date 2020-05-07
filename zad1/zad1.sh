@@ -1,3 +1,4 @@
+#!/bin/bash
 #podpunkt 1:
 
 #podpunkt 2:
