@@ -1,9 +1,0 @@
-Żeby uzyskać informacje o projekcie, sprawdzić linki, bibliografię, wejdź w plik informacje.txt
-
-Żeby zobaczyć prezentację w formie pdf, otwórz plik "GNU binutils i wprowadzenie do linkera.pdf:
-
-Żeby obejrzeć przykłady, rozpakuj plik "GNU_binutils_examples.zip"
-
-Żeby zrobić zadania, zajrzyj do folderów zad1, zad2, zad3.
-
-W każdym z folderów zad1, zad2, zad3 znajduje się plik INSTRUKCJA.txt, który wyjaśnia, o co chodzi w danym zadaniu. W przypadku zadań 1 i 2 należy użyć komend binutils i skryptów linkera, by stworzyć odpowiednie pliki obiektowe i przetestować ich działanie, natomiast w zadaniu 3 znajduje się quiz wielokrotnego wyboru sprawdzający podstawowe informacje o teorii dotyczącej binutils oraz likera, a także program pozwalający sprawdzić odpowiedzi.
