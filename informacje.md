@@ -1,4 +1,4 @@
-INFORMACJE O PROJEKCIE:
+### INFORMACJE O PROJEKCIE:
 
 Autor: Maciej Trzciński
 Tytuł: GNU Binutils i wprowadzenie do linkera
